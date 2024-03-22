@@ -1,0 +1,7 @@
+Build Docker File:
+docker build -t <name_of_image> <location_of_Dockerfile>
+
+Run Docker Container
+docker run -d -p <host port>:<docker port> --name <container> <image_name>
+
+-d = detached mode which doesnt block terminal
